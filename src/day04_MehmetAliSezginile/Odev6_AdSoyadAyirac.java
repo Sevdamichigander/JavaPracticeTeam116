@@ -1,6 +1,6 @@
-package day4;
+package day04_MehmetAliSezginile;
 
-import java.util.Scanner;// Kullanıcıdan girdi almak için Scanner sınıfını import ediyoruz.
+import java.util.Scanner;
 
 public class Odev6_AdSoyadAyirac {
     public static void main(String[] args) {
@@ -20,7 +20,6 @@ public class Odev6_AdSoyadAyirac {
         System.out.println("Adınız: " + ad); // Adımızı ekrana yazdırıyoruz.
         System.out.println("Soyadınız: " + soyad); // Soyadımızı ekrana yazdırıyoruz.
 
-        input.close(); // Scanner nesnesini kapatıyoruz.
     }
 }
 

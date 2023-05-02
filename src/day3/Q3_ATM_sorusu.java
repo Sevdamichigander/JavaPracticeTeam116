@@ -12,6 +12,19 @@ public class Q3_ATM_sorusu {
     5-Kullanici Cikis yapsin
      */
 
+
+    //Scanner nesnesi oluşturma ve değişkenleri tanımlama
+
+    /*
+    Bu değişkenler, programın farklı bölümlerinde erişilmesi
+     gerektiğinde kullanılmak üzere static olarak tanımlanmıştır.
+      Eğer bu değişkenler static olarak tanımlanmazsa,
+      farklı metodlar arasında veya main metodunun dışında kullanılamazlar.
+       Ancak static olarak tanımlanarak, tüm metodlar tarafından
+        erişilebilir hale gelirler ve böylece programın farklı bölümlerinde
+         kullanılabilecekleri anlamına gelir.
+     */
+
     static Scanner scan = new Scanner(System.in);
     static double balance = 5000;
     static double deposit ;
@@ -21,6 +34,7 @@ public class Q3_ATM_sorusu {
     //Kullanici yi ana ekranda karsilamak ve yapmak istedigi islemleri secmesi
     // icin welcomeToBank methodunu olusturduk
     public static  void welcomeToBank(){
+
         System.out.println("****** WELCOME TO THE BANK OF SLOVENIA ******");
         System.out.println("Please Select Your Transaction");
         System.out.println("1-Balance\n2-Deposit\n3-Withdraw\n4-Exit");
@@ -33,7 +47,9 @@ public class Q3_ATM_sorusu {
     }
 
     //Kullanicinin bakiyesinini ogrenebilmesi icin balanceLearning() methodu create ettik
-    public static void balanceLearning(){
+    public static void balanceLearning(){ //Öncelikle, metot başına "public static" yazılarak,
+                                        // metotun diğer sınıflardan çağrılabilir ve
+                                        //main metodunun dışında kullanılabilir olduğu belirtilir.
         System.out.println("Your Balance is :"+ balance);
         welcomeToBank();
     }
@@ -77,5 +93,17 @@ public class Q3_ATM_sorusu {
 
     public static void main(String[] args) {
         transaction() ;
+        /*
+        Java programlama dilinde, bir programın çalıştırılması "main" metodunun bulunmasına bağlıdır.
+        "main" metodunun bulunmaması durumunda, program çalışmayacaktır.
+
+        Ancak, "main" metodu her zaman her şeyi yazmanız gereken ilk metod değildir.
+        Öncelikle, programın işlevselliğine ve gereksinimlerine göre, farklı metodlar oluşturulur.
+        Bu metodlar, programın farklı işlevlerini gerçekleştirmek için kullanılır.
+
+        Bu programda da önce, farklı işlevleri gerçekleştirmek için gerekli metodlar oluşturulmuştur.
+        Daha sonra, "main" metodu, programı çalıştırmak için kullanılmıştır.
+        Bu nedenle, önce farklı metodların oluşturulması daha mantıklı ve anlamlıdır.
+         */
     }
 }

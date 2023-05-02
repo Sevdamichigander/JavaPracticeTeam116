@@ -1,4 +1,4 @@
-package day4;
+package day04_MehmetAliSezginile;
 
 import java.util.Scanner;
 
@@ -20,6 +20,7 @@ public class Odev5_KrediKarti {
         Scanner scanner = new Scanner(System.in);
 
         // Ask user for name, surname and credit card number
+
         System.out.print("Enter your name: ");
         String name = scanner.next();
         System.out.print("Enter your surname: ");
@@ -28,20 +29,24 @@ public class Odev5_KrediKarti {
         String creditCardNumber = scanner.next();
 
         // Check if credit card number has 16 digits
+
         if (creditCardNumber.length() != 16) {
             System.out.println("Invalid credit card number");
             return;
         }
 
         // Format name and surname
+
         String formattedName = name.substring(0, 1).toUpperCase() + "*** " +
                 surname.substring(0, 1).toUpperCase() + "****";
 
         // Format credit card number
+
         String formattedCreditCardNumber = "**** **** **** " +
                 creditCardNumber.substring(12);
 
         // Print output
+
         System.out.println("Name : " + formattedName);
         System.out.println("CCN  : " + formattedCreditCardNumber);
     }

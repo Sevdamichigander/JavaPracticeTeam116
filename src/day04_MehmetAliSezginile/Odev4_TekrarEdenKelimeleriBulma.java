@@ -1,4 +1,4 @@
-package day4;
+package day04_MehmetAliSezginile;
 
 import java.util.Scanner;
 
@@ -42,8 +42,8 @@ public class Odev4_TekrarEdenKelimeleriBulma {
 
         // print the result
         if (count == 0) {//Bir kontrol yapısı kullanılarak, eğer aranan kelime cümle içinde bulunamazsa
-            // buna ilişkin bir çıktı verilir.
-            // Aksi takdirde, aranan kelimenin kaç kez geçtiği çıktı olarak verilir.
+            // buna ilişkin bir çıktı verilir.Aksi takdirde, aranan kelimenin kaç kez geçtiği çıktı olarak verilir.
+
             System.out.println("The string \"" + searchString + "\" was not found in the sentence \"" + sentence + "\".");
         }
         else if (count == 1) {
