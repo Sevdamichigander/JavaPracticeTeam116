@@ -3,7 +3,7 @@ package OgrenciPractice;
 import java.util.Random;
 import java.util.Scanner;
 
-public class C02_sayiTahmin2 {
+public class C01_sayiTahmin2 {
     //1 ile 100 arasında rastgele üretilen sayının kullanıcının kaçıncı denemede tahmin ettiğini hesaplayan,
 //     ayrıca kullanıcıyı "daha büyük sayı giriniz","daha küçük sayı giriniz" şeklinde  yönlendiren programı
 //     metot kullanarak yazınız.

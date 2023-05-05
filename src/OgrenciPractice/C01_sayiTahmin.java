@@ -14,14 +14,14 @@ public class C01_sayiTahmin {
             int sayac=0;
             Scanner scanner=new Scanner(System.in);
             do{
-                System.out.println("lütfen tahminizi giriniz: ");
+                System.out.println("lütfen tahmininizi giriniz: ");
                 tahmin=scanner.nextInt();
                 sayac++;
                 if (sayi==tahmin)
-                    System.out.println("tebrikler "+sayac+" . seferde bildiniz");
+                    System.out.println("Tebrikler "+sayac+" . seferde bildiniz");
                 else if (tahmin>sayi) {
-                    System.out.println("daha küçük bir sayı giriniz");
-                }else System.out.println("daha büyük bir sayı giriniz");
+                    System.out.println("Daha küçük bir sayı giriniz");
+                }else System.out.println("Daha büyük bir sayı giriniz");
             }while(tahmin!=sayi);
         }
 }

@@ -1,7 +1,7 @@
 package OgrenciPractice;
 import java.util.Scanner;
 
-public class C03_doviz {
+public class C03_dovizBurosu {
     //Soru-3) Döviz almak ya da satmak isteyen kullanıcıyı once aşağıdaki gibi bir menuyle karşılayıp kullanıcının secim yapıp
 //işlemlerini girisMenu() metodu ile, doviz alımı için dovizAlim() metodu ile, döviz satışı için dovizSatıs() metodu ile
 //toplamda 3 method kullanarak yapınız.
