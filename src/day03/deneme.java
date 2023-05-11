@@ -1,4 +1,4 @@
-package day3;
+package day03;
 
 public class deneme {
     public static void method1(float i, int j){

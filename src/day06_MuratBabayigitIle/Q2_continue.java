@@ -1,4 +1,4 @@
-package day6_MuratBabayigitIle;
+package day06_MuratBabayigitIle;
 
 public class Q2_continue {
     public static void main(String[] args) {

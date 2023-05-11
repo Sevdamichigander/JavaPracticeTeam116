@@ -1,4 +1,4 @@
-package day6_MuratBabayigitIle;
+package day06_MuratBabayigitIle;
 
 import java.util.Random;
 import java.util.Scanner;
