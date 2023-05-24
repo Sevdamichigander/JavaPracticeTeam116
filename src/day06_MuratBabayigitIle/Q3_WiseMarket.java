@@ -22,6 +22,7 @@ ilk programa girildiginde bizi bir menu karsilasin bu secenekler
     static int urunFiyati;
     static int urunAdedi;
     static int toplam;
+    
     static boolean ekUrun = false;
 
 
